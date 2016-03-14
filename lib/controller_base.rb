@@ -11,6 +11,7 @@ class ControllerBase
   def initialize(req, res, params={})
     @req = req
     @res = res
+    @params = params
     already_built_response?
   end
 
